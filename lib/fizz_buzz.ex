@@ -25,19 +25,4 @@ defmodule FizzBuzz do
   defp avaliar_numeros(number) when rem(number, 3) == 0, do: :fizz
   defp avaliar_numeros(number) when rem(number, 5) == 0, do: :buzz
   defp avaliar_numeros(number), do: number
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
 end
